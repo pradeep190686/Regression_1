@@ -48,7 +48,7 @@ public class ContactsPageTest extends TestBase {
 		log.info("contact label is displayed");
 		Assert.assertTrue(contactspage.VerifyContactsLabel(),"contacts label not found");		
 	}
-
+     //Testing integration
 	@Test(priority=2,enabled = true,expectedExceptions=NoSuchElementException.class)
 	public void checkboxtest()
 	{
