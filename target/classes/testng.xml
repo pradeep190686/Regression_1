@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="qa test cases">
+	<test name="regression">
+		<classes>
+			<class name="testcases.LoginPageTest"></class>
+			<!-- <class name="testcases.HomePageTest"></class>
+			<class name="testcases.ContactsPageTest"></class> -->
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="17680" started-at="2018-08-12T17:38:23Z" finished-at="2018-08-12T17:38:40Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="17680" started-at="2018-08-12T17:38:23Z" finished-at="2018-08-12T17:38:40Z">
+      <class name="testcases.LoginPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testcases.LoginPageTest@2b9627bc]" name="setup" is-config="true" duration-ms="16379" started-at="2018-08-12T23:08:23Z" finished-at="2018-08-12T23:08:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="crmlogotest()[pri:0, instance:testcases.LoginPageTest@2b9627bc]" name="crmlogotest" duration-ms="427" started-at="2018-08-12T23:08:39Z" finished-at="2018-08-12T23:08:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- crmlogotest -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:testcases.LoginPageTest@2b9627bc]" name="TearDown" is-config="true" duration-ms="831" started-at="2018-08-12T23:08:40Z" finished-at="2018-08-12T23:08:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- testcases.LoginPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

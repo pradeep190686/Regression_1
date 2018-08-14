@@ -1,0 +1,9 @@
+utilities\testutil.class
+pages\LoginPage.class
+pages\ContactsPage.class
+pages\HomePage.class
+pages\TasksPage.class
+testbase\TestBase.class
+utilities\WebEventListener.class
+pages\DealsPage.class
+pages\SignupPage.class

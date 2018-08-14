@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [qa test cases]">
+  <test name="regression(failed)">
+    <classes>
+      <class name="testcases.HomePageTest">
+        <methods>
+          <include name="TearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testcases.HomePageTest -->
+      <class name="testcases.ContactsPageTest">
+        <methods>
+          <include name="CreateNewContactTest"/>
+          <include name="multicheckboxtest"/>
+          <include name="CreateNewContactExcelTest"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- testcases.ContactsPageTest -->
+      <class name="testcases.LoginPageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="TearDown"/>
+        </methods>
+      </class> <!-- testcases.LoginPageTest -->
+    </classes>
+  </test> <!-- regression(failed) -->
+</suite> <!-- Failed suite [qa test cases] -->
