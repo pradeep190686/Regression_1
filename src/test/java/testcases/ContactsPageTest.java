@@ -42,7 +42,7 @@ public class ContactsPageTest extends TestBase {
 
 	}
 
-	@Test(priority=1)
+	@Test(priority=0)
 	public void VerifyContactLabelDisplayTest()
 	{
 		log.info("contact label is displayed");
